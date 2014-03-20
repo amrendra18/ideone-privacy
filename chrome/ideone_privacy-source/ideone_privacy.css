@@ -1,0 +1,21 @@
+/*  
+Author: Amrendra Kumar
+Author URI: http://amrendra.in
+*/
+
+div#debug{
+	position:fixed;
+	bottom:0px;
+	right:0px;
+	padding:10px;
+	font-size:10px;
+	color:#00F;
+	background-color:#FFF;
+	border:1px solid #000;
+	width:450px;
+	overflow:scroll;
+}
+
+span#status-for-user{
+	margin-left:10px;
+}

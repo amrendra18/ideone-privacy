@@ -1,0 +1,17 @@
+{
+  "name": "Ideone Privacy",
+  "version": "1.0",
+  "manifest_version": 2,
+  "description": "Sets privacy for Ideone submissions to private by default, and alerts if user is making a public/secret paste.",
+  "content_scripts": [
+		{
+		  "matches": ["http://ideone.com/", "http://ideone.com/fork/*"],	
+		  "css": ["ideone_privacy.css"],
+		  "js": ["jquery-1.7.2.min.js", "ideone_privacy.js"]
+		}
+    ],
+	"icons": { 
+		"128": "ideone_privacy.png" 
+	}
+
+}
