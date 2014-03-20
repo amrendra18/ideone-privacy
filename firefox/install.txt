@@ -1,1 +1,16 @@
-How to install this script on your firefox browser
+How to install this script on your firefox browser.
+
+
+Requirement: Greasemonkey addon for firefox
+So if you dont have it installed, go ahead and install it first.
+
+
+Then you can add the script by going to this link and install it
+[link coming soon]
+
+Or,
+you can download the file Ideone_Privacy.user.js from this repository, 
+and drag it in opened firefox browser, it will identify as a Greasemonkey script
+and give you a pop-up with installing option.
+
+Go ahead and give it a test.
