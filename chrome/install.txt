@@ -1,1 +1,14 @@
 How to install this extension on your chrome browser!!
+
+
+Step 1: Go to chrome://extensions/
+
+Step 2: Check the tick box for Developer mode if its unchecked
+
+Step 3: Download and extract ideone_privacy-unpacked.zip
+
+Step 4: Then click on Load unpacked extensions and locate the extracted folder.
+
+Step 5: You should see Ideone Privacy 1.0 in your extensions now.
+
+Step 6: Go ahead and test it :D
