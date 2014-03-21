@@ -5,8 +5,8 @@ Requirement: Greasemonkey addon for firefox
 So if you dont have it installed, go ahead and install it first.
 
 
-Then you can add the script by going to this link and install it
-[link coming soon]
+Then you can add the script by going to this link and install it from the url
+http://userscripts.org/scripts/show/421808
 
 Or,
 you can download the file Ideone_Privacy.user.js from this repository, 
