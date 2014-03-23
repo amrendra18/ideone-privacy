@@ -212,6 +212,8 @@ if(LOGGED_IN==false){
 	//user is not logged in, cannot make private submissions, just set the status
 	setStatus(getButton());
 }else{
+	setStatus(getButton());
+	/*
 	//user is logged in,lets try and make private default value
 	var x = getButton();
 	if(x==1){//button is set to public by default
@@ -225,4 +227,5 @@ if(LOGGED_IN==false){
 	}else{
 	}
 	makePrivate();
+	*/
 }
