@@ -181,7 +181,10 @@ if(STATUS_UNKNOWN){
 	LOG("user not logged in");
 	setStatus(getButton());
 }else{
+	setStatus(getButton());
+	/*
 	//user is logged in,lets try and make private default value
+	
 	var x = getButton();
 	if(x==1){
 		PUBLIC_BTN.removeClass('active');
@@ -194,5 +197,6 @@ if(STATUS_UNKNOWN){
 	}else{
 	}
 	makePrivate();
+	*/
 }
 
