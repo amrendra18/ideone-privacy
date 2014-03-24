@@ -63,7 +63,8 @@ var STATUS = 1;// 1:public 0:secret -1: private
 
 //this function is triggered when Run/Ideone it button is pressed
 function check(event){
-	//LOG("Log in: "+LOGGED_IN+" Status: "+STATUS);
+	LOG("Log in: "+LOGGED_IN+" Status: "+STATUS);
+	//PRIVATE_BTN.click();
 	switch(STATUS){
 		case -1://user is making a hidden submission
 		return true;
@@ -182,9 +183,9 @@ var SECRET_BTN = BTNS[1];
 var PRIVATE_BTN = BTNS[2];
 
 //adding onclick listeners to the public,secret and private button 
-PUBLIC_BTN.addEventListener("click",  makePublic,true);
-SECRET_BTN.addEventListener("click",  makeSecret,true);
-PRIVATE_BTN.addEventListener("click", makePrivate,true);
+PUBLIC_BTN.addEventListener("click",  makePublic,false);
+SECRET_BTN.addEventListener("click",  makeSecret,false);
+PRIVATE_BTN.addEventListener("click", makePrivate,false);
 
 
 //returns what privacy is set 
@@ -212,20 +213,25 @@ if(LOGGED_IN==false){
 	//user is not logged in, cannot make private submissions, just set the status
 	setStatus(getButton());
 }else{
-	setStatus(getButton());
-	/*
+    setStatus(getButton());
+
 	//user is logged in,lets try and make private default value
 	var x = getButton();
 	if(x==1){//button is set to public by default
-		PUBLIC_BTN.classList.remove('active');
-		PRIVATE_BTN.classList.add('active');
 		LOG("from public to private default");
+		//window.onload = PRIVATE_BTN.click();
+		window.onload = onLoad;
 	}else if(x==0){//button is set to secret by default
-		SECRET_BTN.classList.remove('active');
-		PRIVATE_BTN.classList.add('active');
 		LOG("from secret to private");
+		//window.onload = PRIVATE_BTN.click();
+		window.onload = onLoad;
 	}else{
+	
 	}
-	makePrivate();
-	*/
+	//makePrivate();
+}
+
+function onLoad(){
+    LOG("trying to change");
+    PRIVATE_BTN.click();
 }

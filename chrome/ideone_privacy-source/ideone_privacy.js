@@ -182,21 +182,17 @@ if(STATUS_UNKNOWN){
 	setStatus(getButton());
 }else{
 	setStatus(getButton());
-	/*
 	//user is logged in,lets try and make private default value
-	
 	var x = getButton();
 	if(x==1){
-		PUBLIC_BTN.removeClass('active');
-		PRIVATE_BTN.addClass('active');
+		//PUBLIC_BTN.removeClass('active');
+		PRIVATE_BTN.show().focus().click();
 		LOG("from public to private default");
 	}else if(x==0){
-		SECRET_BTN.removeClass('active');
-		PRIVATE_BTN.addClass('active');
+		//SECRET_BTN.removeClass('active');
+		PRIVATE_BTN.show().focus().click();
 		LOG("from secret to private");
 	}else{
 	}
-	makePrivate();
-	*/
 }
 
