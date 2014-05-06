@@ -4,6 +4,8 @@
 // @description   Sets privacy for Ideone submissions to private by default, and alerts if user is making a public/secret paste.
 // @include http://ideone.com/
 // @include http://ideone.com/fork/*
+// @include https://ideone.com/
+// @include https://ideone.com/fork/*
 // @grant none
 // ==/UserScript==
 
@@ -11,12 +13,13 @@
 
 /*
  * Author : Amrendra Kumar
- *
+ * For chrome at chrome web store: https://chrome.google.com/webstore/detail/private-codes/jnbfjcagnimdookcncakomikecgapoij
+ * 
  * Git Hub repository including similar script for chrome at
  * Url: https://github.com/thecodegame/ideone-privacy
  *
  * Privacy Settings at Ideone:
- *		Public  : Submissions are available to everyone, even shown in recent codes on Ideone.
+ *	Public  : Submissions are available to everyone, even shown in recent codes on Ideone.
  *  	Secret  : Submissions are available to anyone who has the link to it, these submission can come up in google searches.
  *  	Private : Submissions are available only to the user who created it.
  *
