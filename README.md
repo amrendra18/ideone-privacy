@@ -6,9 +6,8 @@ Many times user accidentally makes their code publically available on Ideone, wh
 specially solutions for a ongoing competitive programming contest.
 
 Try it here
-
-[Chrome Webstore](https://chrome.google.com/webstore/detail/private-codes/jnbfjcagnimdookcncakomikecgapoij?hl=en)
-
+* [Chrome](https://chrome.google.com/webstore/detail/private-codes/jnbfjcagnimdookcncakomikecgapoij?hl=en)
+* [Firefox](http://userscripts-mirror.org/scripts/show/421808)
 
 What this extension does exactly?
 
