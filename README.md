@@ -15,10 +15,12 @@ What this extension does exactly?
 * Alerts and confirms when user tries to make a public/secret paste.
 
 ## Preview
+![Preview Image](../master/snapshots/alert.jpg?raw=true)
+
 ![Preview Image](../master/snapshots/status.jpg?raw=true)
 
 
-## Privacy Settings at Ideone:
+## Privacy Settings at Ideone
  *		Public  : Submissions are available to everyone, even shown in recent codes on Ideone.
  *  	Secret  : Submissions are available to anyone who has the link to it, these submission can come up in google searches.
  *  	Private : Submissions are available only to the user who created it.
