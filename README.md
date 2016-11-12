@@ -24,7 +24,3 @@ What this extension does exactly?
  *		Public  : Submissions are available to everyone, even shown in recent codes on Ideone.
  *  	Secret  : Submissions are available to anyone who has the link to it, these submission can come up in google searches.
  *  	Private : Submissions are available only to the user who created it.
-
-
-[![Bitdeli Badge](https://d2weczhvl823v0.cloudfront.net/amrendra18/ideone-privacy/trend.png)](https://bitdeli.com/free "Bitdeli Badge")
-
